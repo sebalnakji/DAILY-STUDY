@@ -1,17 +1,17 @@
-# Curriculum
+﻿# Curriculum
 
 ## 하루 학습 단위
 
 매일 다음 두 질문을 학습한다.
 
-- AI·Data: 1개
+- AI·DA: 1개
 - Backend: 1개
 
 두 질문이 모두 완료돼야 해당 날짜를 완료한 학습일로 인정한다.
 
-## Track A. AI·Data
+## Track A. AI·DA
 
-AI·Data는 다음 순서를 반복한다.
+AI·DA는 다음 순서를 반복한다.
 
 ```text
 Data Analysis → ML Engineering → LLM Engineering → 반복
@@ -32,7 +32,7 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 ## 운영 원칙
 
 - 하루에 질문을 정확히 2개만 학습한다.
-- AI·Data 1개와 Backend 1개를 생성한다.
+- AI·DA 1개와 Backend 1개를 생성한다.
 - 질문은 반드시 기준 레포에 실제로 존재해야 한다.
 - 구현 및 긴 코드 작성은 기본 범위에서 제외한다.
 - 하나의 질문은 짧게 학습할 수 있는 범위로 제한한다.

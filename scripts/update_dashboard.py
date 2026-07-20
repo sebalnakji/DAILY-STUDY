@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
@@ -153,7 +153,7 @@ def build_dashboard(notes: list[Note]) -> str:
         "",
         "### 최근 학습",
         "",
-        "| 날짜 | AI·Data | Backend |",
+        "| 날짜 | AI·DA | Backend |",
         "|---|---|---|",
     ]
 
