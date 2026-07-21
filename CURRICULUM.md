@@ -20,14 +20,14 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
 | 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Supervised machine learning 완료 | waiting |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | 시작 전 | next |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | 시작 전 | waiting |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 1번 완료 | waiting |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | 시작 전 | next |
 
 ## Track B. Backend
 
 | 기준 레포 | 현재 위치 | 상태 |
 |---|---|---|
-| `donnemartin/system-design-primer` | `README.md` · Performance vs scalability 완료 (다음: Latency vs throughput) | next |
+| `donnemartin/system-design-primer` | `README.md` · Latency vs throughput 완료 (다음: Availability vs consistency) | next |
 
 ## 운영 원칙
 
