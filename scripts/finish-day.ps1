@@ -51,7 +51,7 @@ if (-not $changes) {
     throw "There are no staged changes to commit."
 }
 
-$commitMessage = "study: $Date AI·Data and Backend"
+$commitMessage = "study: $Date AI-DA and Backend"
 git commit -m $commitMessage
 
 if (-not $NoPush) {
