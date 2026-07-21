@@ -1,0 +1,59 @@
+name: Trigger profile update
+
+# DAILY-STUDY의 학습 결과가 main에 push되면
+# 프로필 저장소(sebalnakji/sebalnakji)의 update-profile.yml을 workflow_dispatch로 실행한다.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+      - 'notes/**'
+  # 토큰/권한 설정을 push 없이 수동으로 점검하기 위한 트리거
+  workflow_dispatch:
+
+# 이 워크플로는 GITHUB_TOKEN을 사용하지 않는다. (외부 저장소 호출은 PAT로만 수행)
+permissions: {}
+
+jobs:
+  dispatch:
+    name: Dispatch update-profile.yml
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    env:
+      TARGET_REPOSITORY: sebalnakji/sebalnakji
+      TARGET_WORKFLOW: update-profile.yml
+      TARGET_REF: main
+
+    steps:
+      - name: Verify secret is configured
+        env:
+          PROFILE_WORKFLOW_TOKEN: ${{ secrets.PROFILE_WORKFLOW_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "${PROFILE_WORKFLOW_TOKEN}" ]; then
+            echo "::error::Secret PROFILE_WORKFLOW_TOKEN is not configured in this repository."
+            exit 1
+          fi
+          echo "Secret is present."
+
+      - name: Dispatch profile workflow
+        env:
+          PROFILE_WORKFLOW_TOKEN: ${{ secrets.PROFILE_WORKFLOW_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          echo "Dispatching ${TARGET_WORKFLOW} in ${TARGET_REPOSITORY} (ref: ${TARGET_REF})"
+
+          # --fail-with-body: HTTP 4xx/5xx이면 응답 본문을 출력한 뒤 0이 아닌 코드로 종료한다.
+          # set -e와 결합되어 curl 실패 시 이 스텝과 잡 전체가 실패한다.
+          curl --fail-with-body --silent --show-error \
+            --request POST \
+            --url "https://api.github.com/repos/${TARGET_REPOSITORY}/actions/workflows/${TARGET_WORKFLOW}/dispatches" \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer ${PROFILE_WORKFLOW_TOKEN}" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            --data "{\"ref\":\"${TARGET_REF}\"}"
+
+          echo "Dispatch accepted (HTTP 204)."
