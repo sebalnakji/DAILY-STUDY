@@ -19,17 +19,17 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Supervised machine learning 완료 (다음: Linear regression) | next |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 1번 완료 | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Linear regression(정의/용법) 완료 (다음: Validation) | waiting |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 1번 완료 (다음: 2번) | next |
 | 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals 1번 완료 | waiting |
 
-> 1바퀴 완료(DA→ML→LLM). 다음은 다시 Data Analysis.
+> 2바퀴째 진행 중(DA→ML→LLM 순환). 다음은 ML Engineering.
 
 ## Track B. Backend
 
 | 기준 레포 | 현재 위치 | 상태 |
 |---|---|---|
-| `donnemartin/system-design-primer` | `README.md` · Availability vs consistency(CAP) 완료 (다음: Availability patterns) | next |
+| `donnemartin/system-design-primer` | `README.md` · Availability patterns 완료 (다음: Domain Name System) | next |
 
 ## 운영 원칙
 
