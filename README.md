@@ -1,4 +1,4 @@
-﻿# Daily Interview Study
+# Daily Interview Study
 
 > 매일 **AI·DA**와 **Backend** 분야에서 핵심 개념을 하나씩 학습합니다.
 
@@ -7,17 +7,17 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **1일** | **3일** | **5일** | **10개** |
+| **2일** | **3일** | **6일** | **12개** |
 
 ### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-07-29 | [토크나이제이션(Tokenization)](notes/2026/2026-07-29-ai-data-tokenization.md) | [CDN (Content Delivery Network)](notes/2026/2026-07-29-backend-content-delivery-network.md) |
 | 2026-07-28 | [머신러닝의 종류](notes/2026/2026-07-28-ai-data-types-of-ml.md) | [DNS (Domain Name System)](notes/2026/2026-07-28-backend-domain-name-system.md) |
 | 2026-07-25 | [선형 회귀(Linear Regression)](notes/2026/2026-07-25-ai-data-linear-regression.md) | [가용성 패턴 (Fail-over, Replication)](notes/2026/2026-07-25-backend-availability-patterns.md) |
 | 2026-07-22 | [LLM이란 무엇인가](notes/2026/2026-07-22-ai-data-what-is-an-llm.md) | [Availability vs Consistency (CAP 정리)](notes/2026/2026-07-22-backend-availability-vs-consistency.md) |
 | 2026-07-21 | [머신러닝 vs 전통적 프로그래밍](notes/2026/2026-07-21-ai-data-ml-vs-traditional-programming.md) | [Latency vs Throughput](notes/2026/2026-07-21-backend-latency-vs-throughput.md) |
-| 2026-07-20 | [지도 학습(Supervised Learning)](notes/2026/2026-07-20-ai-data-supervised-learning.md) | [Performance vs Scalability](notes/2026/2026-07-20-backend-performance-vs-scalability.md) |
 <!-- STUDY_DASHBOARD:END -->
 
 ## 학습 트랙
