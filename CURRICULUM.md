@@ -20,16 +20,16 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
 | 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Validation 완료 (다음: Classification) | waiting |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 2번 완료 (다음: 3번) | next |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Tokenization 완료 | waiting |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 5번 완료 (3·4번은 기학습으로 건너뜀, 다음: 6번 bias-variance) | waiting |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Tokenization 완료 (다음: Embeddings) | next |
 
-> 3바퀴째 진행 중(DA→ML→LLM 순환). 다음은 ML Engineering.
+> 3바퀴째 진행 중(DA→ML→LLM 순환). 다음은 LLM Engineering.
 
 ## Track B. Backend
 
 | 기준 레포 | 현재 위치 | 상태 |
 |---|---|---|
-| `donnemartin/system-design-primer` | `README.md` · Load balancer 완료 (다음: Reverse proxy) | next |
+| `donnemartin/system-design-primer` | `README.md` · Reverse proxy 완료 (다음: Application layer / Microservices) | next |
 
 ## 운영 원칙
 
