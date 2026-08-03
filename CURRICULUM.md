@@ -19,17 +19,17 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Validation 완료 (다음: Classification) | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Validation 완료 (다음: Classification) | next |
 | 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 5번 완료 (3·4번은 기학습으로 건너뜀, 다음: 6번 bias-variance) | waiting |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Tokenization 완료 (다음: Embeddings) | next |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Embeddings 완료 (다음: Positional Encoding 또는 Self-Attention) | waiting |
 
-> 3바퀴째 진행 중(DA→ML→LLM 순환). 다음은 LLM Engineering.
+> 3바퀴 완료(DA→ML→LLM). 다음은 4바퀴째 시작으로 Data Analysis.
 
 ## Track B. Backend
 
 | 기준 레포 | 현재 위치 | 상태 |
 |---|---|---|
-| `donnemartin/system-design-primer` | `README.md` · Reverse proxy 완료 (다음: Application layer / Microservices) | next |
+| `donnemartin/system-design-primer` | `README.md` · Application layer / Microservices 완료 (다음: Database - RDBMS) | next |
 
 ## 운영 원칙
 
