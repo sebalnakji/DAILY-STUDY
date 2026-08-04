@@ -7,17 +7,17 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **1일** | **4일** | **9일** | **18개** |
+| **2일** | **4일** | **10일** | **20개** |
 
 ### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-08-04 | [분류 모델 평가지표](notes/2026/2026-08-04-ai-data-classification-metrics.md) | [RDBMS와 ACID, 복제](notes/2026/2026-08-04-backend-database-rdbms.md) |
 | 2026-08-03 | [임베딩(Embeddings)](notes/2026/2026-08-03-ai-data-embeddings.md) | [애플리케이션 계층과 마이크로서비스](notes/2026/2026-08-03-backend-application-layer.md) |
 | 2026-07-31 | [머신러닝 모델 구축 단계](notes/2026/2026-07-31-ai-data-ml-lifecycle.md) | [리버스 프록시 (Reverse Proxy)](notes/2026/2026-07-31-backend-reverse-proxy.md) |
 | 2026-07-30 | [검증(Validation)과 교차검증](notes/2026/2026-07-30-ai-data-validation.md) | [로드밸런서 (Load Balancer)](notes/2026/2026-07-30-backend-load-balancer.md) |
 | 2026-07-29 | [토크나이제이션(Tokenization)](notes/2026/2026-07-29-ai-data-tokenization.md) | [CDN (Content Delivery Network)](notes/2026/2026-07-29-backend-content-delivery-network.md) |
-| 2026-07-28 | [머신러닝의 종류](notes/2026/2026-07-28-ai-data-types-of-ml.md) | [DNS (Domain Name System)](notes/2026/2026-07-28-backend-domain-name-system.md) |
 <!-- STUDY_DASHBOARD:END -->
 
 ## 학습 트랙
