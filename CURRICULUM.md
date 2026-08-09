@@ -19,17 +19,17 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Classification(평가지표) 완료 (다음: Regularization) | next |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 6번(bias-variance) 완료 (다음: 7번 overfitting 방지) | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Regularization(L1/L2) 완료 (다음: Feature selection) | waiting |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 6번(bias-variance) 완료 (다음: 7번 overfitting 방지) | next |
 | 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Self-Attention/QKV 완료 (다음: Positional Encoding 또는 Multi-Head Attention) | waiting |
 
-> 4바퀴 완료(DA→ML→LLM). 다음은 5바퀴째 시작으로 Data Analysis.
+> 5바퀴째 진행 중(DA→ML→LLM 순환). 다음은 ML Engineering.
 
 ## Track B. Backend
 
 | 기준 레포 | 현재 위치 | 상태 |
 |---|---|---|
-| `donnemartin/system-design-primer` | `README.md` · SQL 튜닝 / NoSQL(BASE) 완료 (다음: NoSQL 4종 - 키값/문서/와이드컬럼/그래프) | next |
+| `donnemartin/system-design-primer` | `README.md` · NoSQL 4종 완료 (다음: SQL or NoSQL 선택 기준) | next |
 
 ## 운영 원칙
 
