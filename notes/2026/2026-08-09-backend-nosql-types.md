@@ -1,5 +1,5 @@
 ---
-date: 2026-08-07
+date: 2026-08-09
 track: backend
 area: Backend & System Design
 topic: NoSQL 4종 (키-값 / 문서 / 와이드 컬럼 / 그래프)

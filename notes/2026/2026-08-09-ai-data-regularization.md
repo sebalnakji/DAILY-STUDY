@@ -1,5 +1,5 @@
 ---
-date: 2026-08-07
+date: 2026-08-09
 track: ai-data
 area: Data Analysis
 topic: 정규화(Regularization)와 L1/L2
