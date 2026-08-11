@@ -7,17 +7,17 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |
 |---:|---:|---:|---:|
-| **2일** | **4일** | **14일** | **28개** |
+| **3일** | **4일** | **15일** | **30개** |
 
 ### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-08-11 | [위치 인코딩(Positional Encoding)](notes/2026/2026-08-11-ai-data-positional-encoding.md) | [캐시(Cache)와 갱신 전략](notes/2026/2026-08-11-backend-cache.md) |
 | 2026-08-10 | [결측·손상 데이터 처리](notes/2026/2026-08-10-ai-data-missing-data.md) | [SQL vs NoSQL 선택 기준](notes/2026/2026-08-10-backend-sql-or-nosql.md) |
 | 2026-08-09 | [정규화(Regularization)와 L1/L2](notes/2026/2026-08-09-ai-data-regularization.md) | [NoSQL 4종 (키-값 / 문서 / 와이드 컬럼 / 그래프)](notes/2026/2026-08-09-backend-nosql-types.md) |
 | 2026-08-06 | [셀프 어텐션(Self-Attention)과 Q·K·V](notes/2026/2026-08-06-ai-data-self-attention.md) | [SQL 튜닝과 NoSQL(BASE)](notes/2026/2026-08-06-backend-sql-tuning-nosql.md) |
 | 2026-08-05 | [편향-분산 트레이드오프](notes/2026/2026-08-05-ai-data-bias-variance.md) | [페더레이션과 샤딩](notes/2026/2026-08-05-backend-federation-sharding.md) |
-| 2026-08-04 | [분류 모델 평가지표](notes/2026/2026-08-04-ai-data-classification-metrics.md) | [RDBMS와 ACID, 복제](notes/2026/2026-08-04-backend-database-rdbms.md) |
 <!-- STUDY_DASHBOARD:END -->
 
 ## 학습 트랙

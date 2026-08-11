@@ -19,17 +19,17 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Regularization(L1/L2) 완료 (다음: Feature selection) | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Regularization(L1/L2) 완료 (다음: Feature selection) | next |
 | 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 11번(결측 데이터) 완료 (7~10번은 기학습으로 건너뜀, 다음: 12번 decision tree) | waiting |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Self-Attention/QKV 완료 (다음: Positional Encoding 또는 Multi-Head Attention) | next |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Positional Encoding 완료 (다음: Multi-Head Attention) | waiting |
 
-> 5바퀴째 진행 중(DA→ML→LLM 순환). 다음은 LLM Engineering.
+> 5바퀴 완료(DA→ML→LLM). 다음은 6바퀴째 시작으로 Data Analysis.
 
 ## Track B. Backend
 
 | 기준 레포 | 현재 위치 | 상태 |
 |---|---|---|
-| `donnemartin/system-design-primer` | `README.md` · SQL or NoSQL 완료 — **데이터 계층 마무리** (다음: Cache) | next |
+| `donnemartin/system-design-primer` | `README.md` · Cache 완료 (다음: Asynchronism) | next |
 
 ## 운영 원칙
 
