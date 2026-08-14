@@ -19,17 +19,17 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Feature selection 완료 (Decision trees는 ML 트랙에서 학습, 다음: Random forest) | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Feature selection 완료 (Decision trees는 ML 트랙에서 학습, 다음: Random forest) | next |
 | 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 12번(decision tree) 완료 (다음: 15번 K-means vs KNN) | waiting |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Positional Encoding 완료 (다음: Multi-Head Attention) | next |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Multi-Head Attention 완료 — **Transformer 3요소 완결** (다음: Context Window 또는 Temperature) | waiting |
 
-> 6바퀴째 진행 중(DA→ML→LLM 순환). 다음은 LLM Engineering.
+> 6바퀴 완료(DA→ML→LLM). 다음은 7바퀴째 시작으로 Data Analysis.
 
 ## Track B. Backend
 
 | 기준 레포 | 현재 위치 | 상태 |
 |---|---|---|
-| `donnemartin/system-design-primer` | `README.md` · Communication - HTTP/TCP/UDP 완료 (다음: RPC, REST) | next |
+| `donnemartin/system-design-primer` | `README.md` · RPC/REST 완료 — **Communication 마무리** (다음: Security) | next |
 
 ## 운영 원칙
 
