@@ -20,16 +20,16 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
 | 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Random forest 완료 (다음: Gradient boosting) | waiting |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 12번(decision tree) 완료 (다음: 15번 K-means vs KNN) | next |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Multi-Head Attention 완료 — **Transformer 3요소 완결** (다음: Context Window 또는 Temperature) | waiting |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 15번(K-means vs KNN) 완료 (다음: 16번 트리 기반 앙상블) | waiting |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Multi-Head Attention 완료 — **Transformer 3요소 완결** (다음: Context Window 또는 Temperature) | next |
 
-> 7바퀴째 진행 중(DA→ML→LLM 순환). 다음은 ML Engineering.
+> 7바퀴째 진행 중(DA→ML→LLM 순환). 다음은 LLM Engineering.
 
 ## Track B. Backend
 
 | 기준 레포 | 현재 위치 | 상태 |
 |---|---|---|
-| `donnemartin/system-design-primer` | `README.md` · Security 완료 — **본문 전 섹션 완주** (다음: Appendix - 2의 거듭제곱 표, 지연시간 수치) | next |
+| `donnemartin/system-design-primer` | `README.md` · Appendix(어림 계산) 완료 — **본문+부록 완주** (다음: 실전 문제 - Design Pastebin 등) | next |
 
 ## 운영 원칙
 
