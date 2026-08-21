@@ -19,17 +19,17 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Random forest 완료 (다음: Gradient boosting) | next |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 15번(K-means vs KNN) 완료 (다음: 16번 트리 기반 앙상블) | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Gradient boosting 완료 — **트리 3부작 완결** (다음: Parameter tuning) | waiting |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 15번(K-means vs KNN) 완료 (16번 트리 앙상블은 DA 트랙에서 학습, 다음: 17번 gradient descent) | next |
 | 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Context Window 완료 (다음: Temperature 또는 Top-p/Top-k 샘플링) | waiting |
 
-> 7바퀴 완료(DA→ML→LLM). 다음은 8바퀴째 시작으로 Data Analysis.
+> 8바퀴째 진행 중(DA→ML→LLM 순환). 다음은 ML Engineering.
 
 ## Track B. Backend
 
 | 기준 레포 | 현재 위치 | 상태 |
 |---|---|---|
-| `donnemartin/system-design-primer` | `solutions/` · **Design Pastebin 완료** (다음: Design the Twitter timeline and search) | next |
+| `donnemartin/system-design-primer` | `solutions/` · **Design Twitter 완료** (다음: Design a web crawler) | next |
 
 ## 운영 원칙
 
