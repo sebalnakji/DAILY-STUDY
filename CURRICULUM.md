@@ -19,17 +19,19 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Gradient boosting 완료 — **트리 3부작 완결** (다음: Parameter tuning) | next |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 17번(gradient descent) 완료 (다음: 18번 SVM) | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · **Parameter tuning 완료**(Grid/Random/Bayesian) (다음: Neural networks 섹션) | done |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 17번(gradient descent) 완료 (다음: 18번 SVM) | next |
 | 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Temperature/Top-k/Top-p 완료 (다음: KV Cache 또는 Model Distillation) | waiting |
 
-> 8바퀴 완료(DA→ML→LLM). 다음은 9바퀴째 시작으로 Data Analysis.
+> 9바퀴째 진행 중 — Data Analysis 완료, 다음은 ML Engineering.
 
 ## Track B. Backend
 
 | 기준 레포 | 현재 위치 | 상태 |
 |---|---|---|
-| `donnemartin/system-design-primer` | `solutions/` · **Scaling to Millions 완료** — 실전 4종 완료 (다음: Design Mint.com 또는 Design a key-value store) | next |
+| `donnemartin/system-design-primer` | `solutions/` · **Design Mint.com 완료** — 실전 5종 완료 (다음: Design a key-value store for a search engine(`query_cache`) 또는 Design the Amazon sales rank(`sales_rank`) 또는 Design a social network(`social_graph`)) | next |
+
+> ℹ️ 2026-08-31: "Design a key-value store"는 primer 인덱스에 개념 항목으로만 있고 `solutions/`에 설계 문서가 없어 Mint.com을 먼저 진행함. `solutions/system_design/`에 남은 미학습 항목은 `query_cache`·`sales_rank`·`social_graph` 셋.
 
 ## 운영 원칙
 
