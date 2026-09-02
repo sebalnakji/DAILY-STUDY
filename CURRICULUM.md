@@ -19,17 +19,19 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · **Parameter tuning 완료**(Grid/Random/Bayesian) (다음: Neural networks 섹션) | done |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **Sample Questions 18번(SVM·Kernel SVM) 완료** (다음: 19번 신경망) | done |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Temperature/Top-k/Top-p 완료 (다음: KV Cache 또는 Model Distillation) | next |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Parameter tuning 완료(Grid/Random/Bayesian) — **다음: Neural networks 섹션** | next |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 18번(SVM·Kernel SVM) 완료 (다음: 19번 신경망) | waiting |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **KV Cache 완료** (다음: Model Distillation) | waiting |
 
-> 9바퀴째 진행 중 — Data Analysis·ML Engineering 완료, 다음은 LLM Engineering.
+> 9바퀴 완료(DA→ML→LLM). 다음은 10바퀴째 시작으로 Data Analysis.
 
 ## Track B. Backend
 
 | 기준 레포 | 현재 위치 | 상태 |
 |---|---|---|
-| `donnemartin/system-design-primer` | `solutions/` · **Query Cache(키-값 캐시) 완료** — 실전 6종 완료 (다음: Design the Amazon sales rank(`sales_rank`) 또는 Design a social network(`social_graph`)) | next |
+| `donnemartin/system-design-primer` | `solutions/` · **Social Graph 완료** — 실전 7종 완료 (다음: Design the Amazon sales rank(`sales_rank`) — **`solutions/system_design/`의 마지막 미학습 항목**) | next |
+
+> ⚠️ 2026-09-02: `sales_rank`를 끝내면 `solutions/system_design/`의 실전 설계 문서를 **전부 소진**한다. 이후 방향(본문 재순회 / 다른 레포 추가 / 심화 주제)을 그때 정할 것.
 
 > ℹ️ 2026-08-31: "Design a key-value store"는 primer 인덱스에 개념 항목으로만 있고 `solutions/`에 설계 문서가 없어 Mint.com을 먼저 진행함.
 > ℹ️ 2026-09-01: `query_cache`의 원제가 "Design a key-value cache to save the results of the most recent web server queries"라 키-값 저장소 설계에 가장 가까운 문제로 판단해 진행함. `solutions/system_design/`에 남은 미학습 항목은 `sales_rank`·`social_graph` 둘.
