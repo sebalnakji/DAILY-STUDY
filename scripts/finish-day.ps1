@@ -22,8 +22,9 @@ if ($aiDataNotes.Count -ne 1) {
     throw "Exactly one AI·Data note is required for $Date. Found: $($aiDataNotes.Count)"
 }
 
-if ($backendNotes.Count -ne 1) {
-    throw "Exactly one Backend note is required for $Date. Found: $($backendNotes.Count)"
+# Backend track is paused: 0 or 1 Backend notes are both acceptable.
+if ($backendNotes.Count -gt 1) {
+    throw "At most one Backend note is allowed for $Date. Found: $($backendNotes.Count)"
 }
 
 function Assert-CompletedNote {
@@ -37,21 +38,29 @@ function Assert-CompletedNote {
 }
 
 Assert-CompletedNote $aiDataNotes[0]
-Assert-CompletedNote $backendNotes[0]
+if ($backendNotes.Count -eq 1) {
+    Assert-CompletedNote $backendNotes[0]
+}
 
 python .\scripts\update_dashboard.py
 if ($LASTEXITCODE -ne 0) {
     throw "Dashboard update failed."
 }
 
-git add -- README.md CURRICULUM.md $aiDataNotes[0].FullName $backendNotes[0].FullName
+$notePaths = @($aiDataNotes[0].FullName)
+if ($backendNotes.Count -eq 1) {
+    $notePaths += $backendNotes[0].FullName
+}
+
+git add -- README.md CURRICULUM.md AGENTS.md @notePaths
 
 $changes = git diff --cached --name-only
 if (-not $changes) {
     throw "There are no staged changes to commit."
 }
 
-$commitMessage = "study: $Date AI-DA and Backend"
+$tracks = if ($backendNotes.Count -eq 1) { "AI-DA and Backend" } else { "AI-DA" }
+$commitMessage = "study: $Date $tracks"
 git commit -m $commitMessage
 
 if (-not $NoPush) {

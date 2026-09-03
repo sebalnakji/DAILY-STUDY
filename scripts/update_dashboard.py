@@ -84,7 +84,7 @@ def completed_days(notes: list[Note]) -> dict[date, dict[str, Note]]:
     return {
         study_date: tracks
         for study_date, tracks in grouped.items()
-        if {"ai-data", "backend"}.issubset(tracks)
+        if "ai-data" in tracks
     }
 
 
@@ -139,6 +139,7 @@ def build_dashboard(notes: list[Note]) -> str:
 
     current_streak = calculate_current_streak(ordered_days)
     longest_streak = calculate_longest_streak(ordered_days)
+    total_questions = sum(len(tracks) for tracks in days_map.values())
 
     lines = [
         START_MARKER,
@@ -148,7 +149,7 @@ def build_dashboard(notes: list[Note]) -> str:
         "|---:|---:|---:|---:|",
         (
             f"| **{current_streak}일** | **{longest_streak}일** | "
-            f"**{len(ordered_days)}일** | **{len(ordered_days) * 2}개** |"
+            f"**{len(ordered_days)}일** | **{total_questions}개** |"
         ),
         "",
         "### 최근 학습",
@@ -164,11 +165,11 @@ def build_dashboard(notes: list[Note]) -> str:
     else:
         for study_date in recent_days:
             tracks = days_map[study_date]
-            lines.append(
-                f"| {study_date.isoformat()} | "
-                f"{markdown_link(tracks['ai-data'])} | "
-                f"{markdown_link(tracks['backend'])} |"
-            )
+            cells = [
+                markdown_link(tracks[track]) if track in tracks else "-"
+                for track in ("ai-data", "backend")
+            ]
+            lines.append(f"| {study_date.isoformat()} | " + " | ".join(cells) + " |")
 
     lines.append(END_MARKER)
     return "\n".join(lines)
