@@ -21,11 +21,13 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks · **활성화 함수 완료**(필요성·시그모이드 한계·ReLU) — 1·2번 질문은 기존 학습과 중복이라 건너뜀 (다음: 가중치 초기화 / 전부 0으로 두면?) | done |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 18번(SVM·Kernel SVM) 완료 (다음: 19번 신경망) | next |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **KV Cache 완료** (다음: Model Distillation) | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks · 활성화 함수 완료(필요성·시그모이드 한계·ReLU) — 1·2번 질문은 기존 학습과 중복이라 건너뜀 (다음: 가중치 초기화 / 전부 0으로 두면?) | done |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **Sample Questions 21번(역전파) 완료** — 19번(신경망 설명)·20번(딥러닝 vs 전통 ML)은 기존 학습과 중복이라 건너뜀 (다음: 22번 CNN 또는 23번 전이학습) | done |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · KV Cache 완료 — **다음: Model Distillation** | next |
 
-> 10바퀴째 진행 중 — Data Analysis 완료, 다음은 ML Engineering.
+> 10바퀴째 진행 중 — Data Analysis·ML Engineering 완료, 다음은 LLM Engineering.
+>
+> ℹ️ 2026-09-04: ML Engineering의 19·20번을 건너뛰었다. 20번(*What is deep learning and how does it differ from traditional machine learning?*)은 **"특징 공학의 자동화" 관점이 기존 노트와 완전히 겹치지는 않으므로 나중에 되짚을 여지를 남겨 둔다.**
 
 ## Track B. Backend — 완료
 
