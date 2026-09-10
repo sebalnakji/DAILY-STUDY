@@ -21,11 +21,11 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks · 활성화 함수 완료 — **다음: 가중치 초기화 / 전부 0으로 두면?** | next |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 21번(역전파) 완료 — 19·20번은 중복이라 건너뜀 (다음: 22번 CNN 또는 23번 전이학습) | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks · **가중치 초기화 완료**(대칭성 문제·Xavier·He) (다음: 정규화 기법 / 드롭아웃 — 단 [[2026-08-09-ai-data-regularization]]과 중복 가능성 높음, 열어 보고 판단) | done |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · Sample Questions 21번(역전파) 완료 — 19·20번은 중복이라 건너뜀 — **다음: 22번 CNN 또는 23번 전이학습** | next |
 | 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **Model Distillation 완료**(법적 고려사항 포함) (다음: Mixture of Experts 또는 Flash Attention) | waiting |
 
-> 10바퀴 완료(DA→ML→LLM). 다음은 11바퀴째 시작으로 Data Analysis.
+> 11바퀴째 진행 중 — Data Analysis 완료, 다음은 ML Engineering.
 >
 > ℹ️ 2026-09-04: ML Engineering의 19·20번을 건너뛰었다. 20번(*What is deep learning and how does it differ from traditional machine learning?*)은 **"특징 공학의 자동화" 관점이 기존 노트와 완전히 겹치지는 않으므로 나중에 되짚을 여지를 남겨 둔다.**
 
