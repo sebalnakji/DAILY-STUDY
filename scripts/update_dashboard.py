@@ -22,6 +22,7 @@ class Note:
     track: str
     topic: str
     status: str
+    kind: str
 
 
 def parse_frontmatter(path: Path) -> dict[str, str]:
@@ -67,6 +68,7 @@ def load_notes() -> list[Note]:
                 track=track,
                 topic=metadata.get("topic", path.stem),
                 status=metadata.get("status", "").lower(),
+                kind=metadata.get("kind", "study").lower(),
             )
         )
 
@@ -139,17 +141,19 @@ def build_dashboard(notes: list[Note]) -> str:
 
     current_streak = calculate_current_streak(ordered_days)
     longest_streak = calculate_longest_streak(ordered_days)
-    total_questions = sum(len(tracks) for tracks in days_map.values())
+    all_notes = [n for tracks in days_map.values() for n in tracks.values()]
+    total_questions = sum(1 for n in all_notes if n.kind != "review")
+    total_reviews = sum(1 for n in all_notes if n.kind == "review")
 
     lines = [
         START_MARKER,
         "## 📊 Study Dashboard",
         "",
-        "| 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 |",
-        "|---:|---:|---:|---:|",
+        "| 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 | 🔁 복습 |",
+        "|---:|---:|---:|---:|---:|",
         (
             f"| **{current_streak}일** | **{longest_streak}일** | "
-            f"**{len(ordered_days)}일** | **{total_questions}개** |"
+            f"**{len(ordered_days)}일** | **{total_questions}개** | **{total_reviews}회** |"
         ),
         "",
         "### 최근 학습",
