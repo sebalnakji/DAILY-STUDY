@@ -39,11 +39,11 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks · 가중치 초기화 완료 — **다음: 정규화 기법 / 드롭아웃** (중복 가능성 높음, 열어 보고 판단. CNN 관련 질문은 건너뜀) | next |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **Sample Questions 22번(CNN) 완료** — 19·20번은 중복이라 건너뜀 (다음: 23번 전이학습 — 목록의 마지막 항목) | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks · **드롭아웃 완료** — 정규화 기법 중 L1·L2는 기존 학습과 중복이라 건너뜀. **Neural networks 섹션 소진** (다음: Optimization in neural networks 섹션. CNN 섹션은 건너뜀) | done |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **Sample Questions 22번(CNN) 완료** — 19·20번은 중복이라 건너뜀 — **다음: 23번 전이학습**(Sample Questions의 마지막 항목) | next |
 | 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **MoE / 밀집·희소 모델 완료** (다음: Flash Attention 또는 Cross-Entropy Loss) | waiting |
 
-> 11바퀴 완료(DA→ML→LLM). 다음은 12바퀴째 시작으로 Data Analysis.
+> 12바퀴째 진행 중 — Data Analysis 완료, 다음은 ML Engineering.
 >
 > ℹ️ 2026-09-11: **트랙 간 중복 기록** — DA 트랙(`data-science-interviews`)의 CNN 관련 질문(합성곱 층, 풀링, 왜 완전연결층으로는 안 되는가, 맥스 풀링 등)은 ML 트랙의 [[2026-09-11-ai-data-cnn]]에서 함께 다뤘으므로 **DA 트랙에서는 건너뛴다.**
 >
