@@ -42,7 +42,22 @@ if ($backendNotes.Count -eq 1) {
     Assert-CompletedNote $backendNotes[0]
 }
 
-python .\scripts\update_dashboard.py
+# Resolve a real interpreter: the bare `python` on PATH can be the
+# Microsoft Store stub, which prints "Python" and exits 0 without running.
+$python = $null
+foreach ($candidate in @(
+    (Join-Path $root ".venv\Scripts\python.exe"),
+    (Join-Path $root "venv\Scripts\python.exe")
+)) {
+    if (Test-Path $candidate) { $python = $candidate; break }
+}
+if (-not $python) {
+    if (Get-Command py -ErrorAction SilentlyContinue) { $python = "py" }
+    elseif (Get-Command python -ErrorAction SilentlyContinue) { $python = "python" }
+    else { throw "No Python interpreter found." }
+}
+
+& $python .\scripts\update_dashboard.py
 if ($LASTEXITCODE -ne 0) {
     throw "Dashboard update failed."
 }
