@@ -39,7 +39,7 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks 섹션 소진 — **다음: Optimization in neural networks 섹션** (CNN 섹션·전이학습 질문은 ML 트랙에서 다뤄 건너뜀) | next |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks 섹션 소진 — **다음: Optimization in neural networks 섹션** (CNN 섹션·전이학습 질문은 ML 트랙에서 다뤄 건너뜀) | waiting |
 | 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **Sample Questions 목록 완주**(23번 전이학습까지, 19·20번은 중복으로 건너뜀) — **다음 바퀴에 레포의 다른 섹션으로 이동해야 함** | done |
 | 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · MoE / 밀집·희소 모델 완료 — **다음: Flash Attention 또는 Cross-Entropy Loss** | next |
 
