@@ -39,11 +39,13 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks 섹션 소진 — **다음: Optimization in neural networks 섹션** (CNN 섹션·전이학습 질문은 ML 트랙에서 다뤄 건너뜀) | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks 섹션 소진 — **다음: Optimization in neural networks 섹션** (CNN 섹션·전이학습 질문은 ML 트랙에서 다뤄 건너뜀) | next |
 | 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **Sample Questions 목록 완주**(23번 전이학습까지, 19·20번은 중복으로 건너뜀) — **다음 바퀴에 레포의 다른 섹션으로 이동해야 함** | done |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · MoE / 밀집·희소 모델 완료 — **다음: Flash Attention 또는 Cross-Entropy Loss** | next |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **Flash Attention 완료** (다음: Cross-Entropy Loss 또는 GQA vs MHA) | done |
 
-> 12바퀴째 진행 중 — Data Analysis·ML Engineering 완료, 다음은 LLM Engineering.
+> 12바퀴 완료(DA→ML→LLM). 다음은 13바퀴째 시작으로 Data Analysis.
+>
+> 🔧 **교정 대기**: [[2026-08-11-ai-data-positional-encoding]]과 [[2026-08-20-ai-data-context-window]]에서 Flash Attention을 "계산량을 줄이는 기법"으로 적고 희소 어텐션과 같은 줄에 놓았다. **Flash Attention은 연산량을 줄이지 않는다** — 메모리 이동을 줄여 같은 계산을 더 빨리 한다. **다음 복습 때 두 노트에 반영할 것.** 근거는 [[2026-09-21-ai-data-flash-attention]].
 >
 > ℹ️ 2026-09-17: **ML Engineering의 `Sample Questions` 목록을 완주**했다. 다음 바퀴에 이 트랙 차례가 오면 `alirezadir/Machine-Learning-Interviews` 레포의 **다른 섹션**(ML system design, ML coding 등)에서 다음 위치를 정해야 한다.
 >
