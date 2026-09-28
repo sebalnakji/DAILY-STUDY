@@ -45,8 +45,6 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 > 13바퀴째 진행 중 — Data Analysis 완료, 다음은 ML Engineering.
 >
-> 🔧 **교정 대기**: [[2026-08-11-ai-data-positional-encoding]]과 [[2026-08-20-ai-data-context-window]]에서 Flash Attention을 "계산량을 줄이는 기법"으로 적고 희소 어텐션과 같은 줄에 놓았다. **Flash Attention은 연산량을 줄이지 않는다** — 메모리 이동을 줄여 같은 계산을 더 빨리 한다. **다음 복습 때 두 노트에 반영할 것.** 근거는 [[2026-09-21-ai-data-flash-attention]].
->
 > ℹ️ 2026-09-17: **ML Engineering의 `Sample Questions` 목록을 완주**했다. 다음 바퀴에 이 트랙 차례가 오면 `alirezadir/Machine-Learning-Interviews` 레포의 **다른 섹션**(ML system design, ML coding 등)에서 다음 위치를 정해야 한다.
 >
 > ℹ️ 2026-09-17: **트랙 간 중복 기록** — DA 트랙의 전이학습 질문(*What is transfer learning? How does it work?*)은 ML 트랙의 [[2026-09-17-ai-data-transfer-learning]]에서 함께 다뤘으므로 **DA 트랙에서는 건너뛴다.**
