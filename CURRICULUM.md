@@ -39,11 +39,15 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Optimization in neural networks · **Adam vs SGD / 학습률 스케줄 완료** — 역전파·SGD·학습률 정의·크기·설정법 5개는 기존 학습과 중복이라 건너뜀 (다음: 학습 종료 시점 / 모델 체크포인팅) | done |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **Sample Questions 목록 완주**(23번 전이학습까지, 19·20번은 중복으로 건너뜀) — **다음: 레포의 다른 섹션에서 위치를 새로 정할 것** | next |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **Flash Attention 완료** (다음: Cross-Entropy Loss 또는 GQA vs MHA) | waiting |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Optimization in neural networks · Adam vs SGD / 학습률 스케줄 완료 — 역전파·SGD·학습률 정의·크기·설정법 5개는 기존 학습과 중복이라 건너뜀 (다음: 학습 종료 시점 / 모델 체크포인팅) | waiting |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **주제 목록(Topics)** · ML Algorithms' Categories · **모수적 vs 비모수적 완료** (다음: Linear vs Nonlinear → 로지스틱 회귀 + 교차 엔트로피) | done |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · Flash Attention 완료 — **다음: GQA vs MHA** (Cross-Entropy Loss는 ML 트랙의 로지스틱 회귀와 함께 다루므로 건너뜀) | next |
 
-> 13바퀴째 진행 중 — Data Analysis 완료, 다음은 ML Engineering.
+> 13바퀴째 진행 중 — Data Analysis·ML Engineering 완료, 다음은 LLM Engineering.
+>
+> ℹ️ 2026-09-28: **ML Engineering 위치 변경** — `Sample Questions`를 완주해 같은 파일의 **주제 목록(Topics)** 으로 옮겼다. 레포의 다른 곳은 쓰지 않는다: `ml-depth.md`는 비어 있고(`[TBD]`), `MLSD/`는 실전 설계형(Backend 중단 사유와 같음), `MLC/`·`lc-coding.md`는 구현 문제, `LLM / GenAI sample questions (2026)`은 LLM 트랙과 겹친다. 주제 목록은 질문 문장이 없으므로 항목을 질문 형태로 바꿔 다루고, **DA 트랙과 겹치는 주제(클러스터링·PCA 등)는 건너뛴다.**
+>
+> ℹ️ 2026-09-28: **트랙 간 중복 예정** — ML 주제 목록의 *Logistic regression (cost function, sigmoid, cross entropy)* 와 LLM 트랙의 *What is Cross-Entropy Loss?* 가 겹친다. **ML 트랙에서 함께 다루고 LLM 트랙에서는 건너뛴다.**
 >
 > ℹ️ 2026-09-17: **ML Engineering의 `Sample Questions` 목록을 완주**했다. 다음 바퀴에 이 트랙 차례가 오면 `alirezadir/Machine-Learning-Interviews` 레포의 **다른 섹션**(ML system design, ML coding 등)에서 다음 위치를 정해야 한다.
 >
