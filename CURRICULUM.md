@@ -39,11 +39,11 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · **Optimization in neural networks 섹션 소진** — 조기 종료·체크포인팅 완료, 마지막 질문(*how you approach the model training process*)은 답이 비어 있고 경험 질문이라 건너뜀 (다음: Neural networks for computer vision 섹션 — CNN 기본·전이학습 질문은 건너뛰고 증강·검출·분할 등 남은 질문부터) | done |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **주제 목록(Topics)** · ML Algorithms' Categories · **선형 vs 비선형 완료** (다음: Supervised learning › 로지스틱 회귀 + 교차 엔트로피) | done |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **GQA vs MHA 완료** (다음: RoPE — [[2026-08-11-ai-data-positional-encoding]]과 부분 중복, 열어 보고 판단. Cross-Entropy Loss는 ML 트랙에서 다루므로 건너뜀) | next |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · **Optimization in neural networks 섹션 소진** — 조기 종료·체크포인팅 완료, 마지막 질문(*how you approach the model training process*)은 답이 비어 있고 경험 질문이라 건너뜀 (다음: Neural networks for computer vision 섹션 — CNN 기본·전이학습 질문은 건너뛰고 증강·검출·분할 등 남은 질문부터) | next |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **주제 목록(Topics)** · ML Algorithms' Categories · **선형 vs 비선형 완료** (다음: Supervised learning › 로지스틱 회귀 + 교차 엔트로피) | waiting |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **RoPE 완료**(ALiBi 비교 포함) (다음: Layer Normalization) | waiting |
 
-> 14바퀴째 진행 중 — Data Analysis·ML Engineering 완료, 다음은 LLM Engineering.
+> 14바퀴 완료(DA→ML→LLM). 다음은 15바퀴째 시작으로 Data Analysis.
 >
 > ℹ️ 2026-09-28: **ML Engineering 위치 변경** — `Sample Questions`를 완주해 같은 파일의 **주제 목록(Topics)** 으로 옮겼다. 레포의 다른 곳은 쓰지 않는다: `ml-depth.md`는 비어 있고(`[TBD]`), `MLSD/`는 실전 설계형(Backend 중단 사유와 같음), `MLC/`·`lc-coding.md`는 구현 문제, `LLM / GenAI sample questions (2026)`은 LLM 트랙과 겹친다. 주제 목록은 질문 문장이 없으므로 항목을 질문 형태로 바꿔 다루고, **DA 트랙과 겹치는 주제(클러스터링·PCA 등)는 건너뛴다.**
 >
