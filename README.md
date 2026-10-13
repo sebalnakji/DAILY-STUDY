@@ -7,17 +7,17 @@
 
 | 🔥 현재 스트릭 | 🏆 최장 스트릭 | 📅 완료한 학습일 | 🧠 완료한 질문 | 🔁 복습 |
 |---:|---:|---:|---:|---:|
-| **1일** | **6일** | **45일** | **72개** | **0회** |
+| **2일** | **6일** | **46일** | **73개** | **0회** |
 
 ### 최근 학습
 
 | 날짜 | AI·DA | Backend |
 |---|---|---|
+| 2026-10-13 | [CNN 분류 아키텍처의 흐름 — AlexNet에서 EfficientNet까지](notes/2026/2026-10-13-ai-data-cnn-architectures.md) | - |
 | 2026-10-12 | [층 정규화(Layer Normalization)와 RMSNorm — 배치 정규화와의 비교](notes/2026/2026-10-12-ai-data-layer-norm.md) | - |
 | 2026-10-08 | [로지스틱 회귀의 비용 함수와 교차 엔트로피(Cross-Entropy)](notes/2026/2026-10-08-ai-data-logistic-cross-entropy.md) | - |
 | 2026-10-07 | [CNN의 회전 민감성과 데이터 증강(Data Augmentation)](notes/2026/2026-10-07-ai-data-augmentation-rotation.md) | - |
 | 2026-10-02 | [RoPE(Rotary Position Embedding, 회전 위치 임베딩)](notes/2026/2026-10-02-ai-data-rope.md) | - |
-| 2026-10-01 | [선형 vs 비선형 알고리즘(Linear vs Nonlinear)](notes/2026/2026-10-01-ai-data-linear-vs-nonlinear.md) | - |
 <!-- STUDY_DASHBOARD:END -->
 
 ## 학습 트랙
