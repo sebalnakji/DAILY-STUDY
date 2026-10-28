@@ -40,10 +40,12 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
 | 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks for computer vision · **CNN 분류 아키텍처 완료**(AlexNet→EfficientNet 흐름) (다음: 객체 검출 → 분할. 전이학습 질문은 ML 트랙에서 다뤄 건너뜀) | done |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **주제 목록(Topics)** · Supervised learning · **로지스틱 회귀 + 교차 엔트로피 완료**(LLM 트랙의 *What is Cross-Entropy Loss?* 함께 처리) (다음: 선형 판별 분석(LDA)) | next |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **Layer Normalization + RMSNorm 완료**(배치 정규화 비교·Pre-LN 포함) (다음: LLM Fundamentals의 남은 질문부터 순서대로) | waiting |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **주제 목록(Topics)** · Supervised learning › Linear Algorithms · **선형 판별 분석(LDA) 완료**(분류기·차원 축소 두 관점, 실무 관점 포함) (다음: Decision Trees 항목 — 기존 결정 트리 노트와 중복 여부 확인 후 Pruning 등 남은 부분부터) | done |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **Layer Normalization + RMSNorm 완료**(배치 정규화 비교·Pre-LN 포함) (다음: LLM Fundamentals의 남은 질문부터 순서대로) | next |
 
-> 16바퀴째 진행 중 — Data Analysis 완료, 다음은 ML Engineering.
+> 16바퀴째 진행 중 — Data Analysis·ML Engineering 완료, 다음은 LLM Engineering.
+>
+> ℹ️ 2026-10-28: **트랙 간 중복 기록** — DA 트랙 `Dimensionality reduction` 섹션의 *Linear Discriminant Analysis (LDA)* 는 ML 트랙의 [[2026-10-28-ai-data-lda]]에서 차원 축소 관점까지 함께 다뤘으므로 **DA 트랙에서는 건너뛴다.**
 >
 > ℹ️ 2026-09-28: **ML Engineering 위치 변경** — `Sample Questions`를 완주해 같은 파일의 **주제 목록(Topics)** 으로 옮겼다. 레포의 다른 곳은 쓰지 않는다: `ml-depth.md`는 비어 있고(`[TBD]`), `MLSD/`는 실전 설계형(Backend 중단 사유와 같음), `MLC/`·`lc-coding.md`는 구현 문제, `LLM / GenAI sample questions (2026)`은 LLM 트랙과 겹친다. 주제 목록은 질문 문장이 없으므로 항목을 질문 형태로 바꿔 다루고, **DA 트랙과 겹치는 주제(클러스터링·PCA 등)는 건너뛴다.**
 >
