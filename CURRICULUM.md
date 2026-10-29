@@ -39,11 +39,11 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
-| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks for computer vision · **CNN 분류 아키텍처 완료**(AlexNet→EfficientNet 흐름) (다음: 객체 검출 → 분할. 전이학습 질문은 ML 트랙에서 다뤄 건너뜀) | done |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **주제 목록(Topics)** · Supervised learning › Linear Algorithms · **선형 판별 분석(LDA) 완료**(분류기·차원 축소 두 관점, 실무 관점 포함) (다음: Decision Trees 항목 — 기존 결정 트리 노트와 중복 여부 확인 후 Pruning 등 남은 부분부터) | done |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **Layer Normalization + RMSNorm 완료**(배치 정규화 비교·Pre-LN 포함) (다음: LLM Fundamentals의 남은 질문부터 순서대로) | next |
+| 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks for computer vision · **CNN 분류 아키텍처 완료**(AlexNet→EfficientNet 흐름) (다음: 객체 검출 → 분할. 전이학습 질문은 ML 트랙에서 다뤄 건너뜀) | next |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **주제 목록(Topics)** · Supervised learning › Linear Algorithms · **선형 판별 분석(LDA) 완료**(분류기·차원 축소 두 관점, 실무 관점 포함) (다음: Decision Trees 항목 — 기존 결정 트리 노트와 중복 여부 확인 후 Pruning 등 남은 부분부터) | waiting |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **인코더/디코더 구조 + 크로스 어텐션 + 자기회귀 vs MLM 완료** — BPE·WordPiece·SentencePiece는 토큰화 노트와 중복이라 건너뜀 (다음: 앞쪽 미학습 질문 — Transformer 구성 요소·FFN·로짓·첫 토큰 지연·오픈 vs 클로즈드 중 중복 확인 후) | waiting |
 
-> 16바퀴째 진행 중 — Data Analysis·ML Engineering 완료, 다음은 LLM Engineering.
+> 16바퀴 완료(DA→ML→LLM). 다음은 17바퀴째 시작으로 Data Analysis.
 >
 > ℹ️ 2026-10-28: **트랙 간 중복 기록** — DA 트랙 `Dimensionality reduction` 섹션의 *Linear Discriminant Analysis (LDA)* 는 ML 트랙의 [[2026-10-28-ai-data-lda]]에서 차원 축소 관점까지 함께 다뤘으므로 **DA 트랙에서는 건너뛴다.**
 >
