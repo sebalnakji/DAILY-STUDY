@@ -40,10 +40,10 @@ Data Analysis → ML Engineering → LLM Engineering → 반복
 | 순서 | 영역 | 기준 레포 | 현재 위치 | 상태 |
 |---:|---|---|---|---|
 | 1 | Data Analysis | `alexeygrigorev/data-science-interviews` | `theory.md` · Neural networks for computer vision · **객체 검출 완료**(2단계·1단계·앵커 없는 검출기, IoU·NMS·mAP) (다음: 분할 — 레포 답의 "물체를 구분하지 않는다"는 의미 분할에만 해당, Mask R-CNN은 인스턴스 분할이라 바로잡고 시작) | done |
-| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **주제 목록(Topics)** · Supervised learning › Linear Algorithms · **선형 판별 분석(LDA) 완료**(분류기·차원 축소 두 관점, 실무 관점 포함) (다음: Decision Trees 항목 — 기존 결정 트리 노트와 중복 여부 확인 후 Pruning 등 남은 부분부터) | next |
-| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **인코더/디코더 구조 + 크로스 어텐션 + 자기회귀 vs MLM 완료** — BPE·WordPiece·SentencePiece는 토큰화 노트와 중복이라 건너뜀 (다음: 앞쪽 미학습 질문 — Transformer 구성 요소·FFN·로짓·첫 토큰 지연·오픈 vs 클로즈드 중 중복 확인 후) | waiting |
+| 2 | ML Engineering | `alirezadir/Machine-Learning-Interviews` | `src/ml-fundamental.md` · **주제 목록(Topics)** · Supervised learning · **결정 트리 보강 완료**(분할 기준·사후 가지치기·리프 값, 개념 수준) (다음: Ensemble methods — 랜덤 포레스트·그래디언트 부스팅 노트와 중복 확인 후 남은 부분(배깅 vs 부스팅 비교, AdaBoost)부터) | done |
+| 3 | LLM Engineering | `amitshekhariitbhu/ai-engineering-interview-questions` | `README.md` · LLM Fundamentals · **인코더/디코더 구조 + 크로스 어텐션 + 자기회귀 vs MLM 완료** — BPE·WordPiece·SentencePiece는 토큰화 노트와 중복이라 건너뜀 (다음: 앞쪽 미학습 질문 — Transformer 구성 요소·FFN·로짓·첫 토큰 지연·오픈 vs 클로즈드 중 중복 확인 후) | next |
 
-> 17바퀴째 진행 중 — Data Analysis 완료, 다음은 ML Engineering.
+> 17바퀴째 진행 중 — Data Analysis·ML Engineering 완료, 다음은 LLM Engineering.
 >
 > ℹ️ 2026-10-28: **트랙 간 중복 기록** — DA 트랙 `Dimensionality reduction` 섹션의 *Linear Discriminant Analysis (LDA)* 는 ML 트랙의 [[2026-10-28-ai-data-lda]]에서 차원 축소 관점까지 함께 다뤘으므로 **DA 트랙에서는 건너뛴다.**
 >
